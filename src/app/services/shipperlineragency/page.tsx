@@ -21,7 +21,7 @@ const shipperlineragency = (props: Props) => {
                     </div>
                 </div>
                 <div className='rounded-[60px] w-[90%] lg:w-auto'>
-                    <Image src="/images/shipperlineragencyImageOne.webp" className='rounded-[40px]' height={1000} width={1000} alt={`Container ship at port representing Entrust Shipping's liner agency services`} />
+                    <Image src="/images/shipperlineragencyimageOne.webp" className='rounded-[40px]' height={1000} width={1000} alt={`Container ship at port representing Entrust Shipping's liner agency services`} />
                 </div>
             </section>
 
