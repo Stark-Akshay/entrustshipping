@@ -17,10 +17,10 @@ const shipperlineragency = (props: Props) => {
                     <p className='text-md md:text-lg text-entrustBlue font-light pb-2'>Entrust Shipping has built a reputation as a trustworthy and reputed shipping liner agency. We represent some of the most renowned container lines providing services in various cities across the world.</p>
                     <p className='text-md md:text-lg text-entrustBlue font-light pb-2'>Our experienced team ensures smooth operations and excellent service delivery, making us the preferred choice for shipping lines looking for reliable representation in key ports.</p>
                     <div className='flex flex-row justify-center md:justify-start'>
-                        <SecondaryCTA className='w-[2rem]' location='/branches'>Contact Our Team</SecondaryCTA>
+                        <SecondaryCTA location='/branches'>Contact Our Team</SecondaryCTA>
                     </div>
                 </div>
-                <div className='rounded-[60px] w-[90%] lg:w-auto'>
+                <div className='rounded-[60px] w-full lg:w-auto'>
                     <Image src="/images/shipperlineragencyimageOne.webp" className='rounded-[40px]' height={1000} width={1000} alt={`Container ship at port representing Entrust Shipping's liner agency services`} />
                 </div>
             </section>
