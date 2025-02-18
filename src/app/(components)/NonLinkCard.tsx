@@ -6,10 +6,10 @@ import Link from 'next/link';
 
 
 
-const Card = ({ Icon, cardTitle, cardDescription, location }: cardDataType) => {
+const NonLinkCard = ({ Icon, cardTitle, cardDescription }: Omit<cardDataType, "location">) => {
 
     return (
-        <Link href={location} passHref id="card" className='group bg-white border-2 border-cardBordergrey rounded-[60px] p-5 h-[17rem] transition-all duration-300 hover:bg-entrustBlue flex flex-col justify-between max-w-[24rem] sm:max-w-[40rem] lg:max-w-[25rem] xl:max-w-[30rem] cursor-pointer'>
+        <div id="card" className='group bg-white border-2 border-cardBordergrey rounded-[60px] p-5 h-[17rem] transition-all duration-300 hover:bg-entrustBlue flex flex-col justify-between max-w-[24rem] sm:max-w-[40rem] lg:max-w-[25rem] xl:max-w-[30rem]'>
             <div className='icon-container--parent flex'>
                 <div className='icon-container p-2 w-fit flex flex-row justify-center items-center bg-entrustSubtleWhite border-2 border-entrustSubtleWhite text-entrustBlue rounded-full transition-all duration-300 group-hover:text-entrustSubtleWhite group-hover:bg-entrustBlue'>
                     {<Icon size={40} />}
@@ -24,8 +24,8 @@ const Card = ({ Icon, cardTitle, cardDescription, location }: cardDataType) => {
                     <p>{cardDescription}</p>
                 </div>
             </div>
-        </Link>
+        </div>
     )
 }
 
-export default Card;
+export default NonLinkCard;

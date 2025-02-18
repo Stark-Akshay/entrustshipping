@@ -21,6 +21,10 @@ export default {
         entrustBannerFadeBlue: "#0056b30f",
         cardBordergrey: "rgba(141, 141, 141, 0.31)",
       },
+      backgroundImage: {
+        homeBanner: "url(/images/homeHeroBanner.webp)",
+        shipperlineragencyBanner: "url(/images/shipperlineragencybanner.webp)",
+      },
     },
   },
   plugins: [],
