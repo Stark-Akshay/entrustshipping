@@ -2,10 +2,15 @@ import Banner from '@/app/(components)/Banner'
 import NonLinkCard from '@/app/(components)/NonLinkCard'
 import SecondaryCTA from '@/app/(components)/SecondaryCTA'
 import { agencyServicesData } from '@/app/utils/cardData'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
 
 type Props = {}
+
+export const metadata: Metadata = {
+    title: "Shipper Liner Agency"
+}
 
 const shipperlineragency = (props: Props) => {
     return (

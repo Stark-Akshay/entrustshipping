@@ -22,12 +22,8 @@ export default function Home() {
 
       <section id="ourServices" className="py-5 px-5 md:px-20 text-entrustBlue">
         {/* <Badge className="">Our Services</Badge> */}
-        <div className="flex flex-col sm:flex-row justify-between md:items-center w-full">
-          <h3 className="text-lg font-semibold px-4">Our Services</h3>
-          <div className="flex flex-col py-1 px-4">
-            <h4 className="text-xl">Effortless Shipping, Seamless Logistics</h4>
-            <h5 className="text-md">—We Move Your World.</h5>
-          </div>
+        <div className="flex flex-col sm:flex-row justify-between md:items-center w-full pb-2">
+          <h3 className="text-xl font-semibold px-4">Our Services</h3>
         </div>
         <div id="servicesCards" className="flex flex-col pb-5 gap-5 md:flex-row md:justify-center lg:justify-around flex-wrap flex-1 w-full h-max items-center">
           {cardData.map((card) => (

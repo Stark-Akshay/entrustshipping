@@ -6,7 +6,7 @@ import Link from "next/link";
 const Footer = () => {
     const servicesNav = navData.find((item) => item.pageName === "Services")?.subLinks || [];
     return (
-        <footer className='w-full bg-entrustBlue flex flex-col  md:flex-row md: flex-wrap md:justify-between px-5 md:px-20 pt-5 text-entrustSubtleWhite gap-5'>
+        <footer className='w-full bg-entrustBlue flex flex-col  md:flex-row md: flex-wrap md:justify-between px-5 md:px-20 pt-5 text-entrustSubtleWhite gap-5 pb-5 md:pb-1'>
             <div id="company-details">
                 <div id="company-title-moto" className="font-semibold">
                     <p className="text-xl">ENTRUST SHIPPING LLP</p>

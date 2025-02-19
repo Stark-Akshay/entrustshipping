@@ -49,7 +49,9 @@ const NavBar = () => {
     return (
         <nav role='navigation' aria-description='navigation' className={`fixed top-0 left-0 w-full flex flex-row py-5 px-5 md:px-20 justify-between items-center transition-all duration-300 z-10 bg-entrustSubtleWhite ${isScrolled ? " shadow-md" : "shadow-none"}`}>
             <div className='flex flex-row gap-10 w-full'>
-                <Image aria-label='Entrust Shipping Logo' src="/images/entrustlogo.png" width={200} height={65} alt='Entrust Shipping Logo' />
+                <Link href="/">
+                    <Image aria-label='Entrust Shipping Logo' src="/images/entrustlogo.png" width={200} height={65} alt='Entrust Shipping Logo' />
+                </Link>
 
                 {/* Desktop Nav Links */}
                 <div className='hidden lg:flex flex-row justify-around items-center text-entrustBlue text-lg gap-5'>
