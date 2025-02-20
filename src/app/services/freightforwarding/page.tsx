@@ -4,10 +4,25 @@ import { features } from '@/app/utils/cardData'
 import { Card, CardContent } from '@/components/ui/card'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Plane, Ship, Truck } from 'lucide-react'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
 
 type Props = {}
+
+export const metadata: Metadata = {
+    title: "Freight Forwarding Services",
+    description: "Entrust Shipping provides comprehensive freight forwarding solutions, including sea, air, and land transport. Efficient, secure, and seamless logistics for global shipping.",
+    keywords: "Freight Forwarding, global logistics, sea freight, air freight, land freight, cargo transportation, supply chain management, Entrust Shipping",
+    openGraph: {
+        title: "Freight Forwarding Services | Entrust Shipping",
+        description: "End-to-end freight forwarding solutions across sea, air, and land transport. Secure, reliable, and efficient global shipping with Entrust Shipping.",
+        url: "https://www.entrustshipping.com/freight-forwarding",
+        siteName: "Entrust Shipping",
+        type: "article",
+    },
+    robots: "index, follow",
+};
 
 const frieghtforwarding = (props: Props) => {
     return (

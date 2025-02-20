@@ -9,9 +9,18 @@ import React from 'react'
 type Props = {}
 
 export const metadata: Metadata = {
-    title: "Shipper Liner Agency"
-}
-
+    title: "Shipper Liner Agency",
+    description: "Entrust Shipping is a trusted liner agency representing top container lines worldwide. We ensure smooth port operations and efficient global shipping solutions.",
+    keywords: "Shipper Liner Agency, shipping agency, global shipping solutions, container line representation, port operations, maritime logistics, shipping services, Entrust Shipping",
+    openGraph: {
+        title: "Shipper Liner Agency | Entrust Shipping",
+        description: "Entrust Shipping provides expert liner agency services, representing leading container lines globally. Reliable port operations and seamless logistics solutions.",
+        url: "https://www.entrustshipping.com/shipper-liner-agency",
+        siteName: "Entrust Shipping",
+        type: "article",
+    },
+    robots: "index, follow",
+};
 const shipperlineragency = (props: Props) => {
     return (
         <>
