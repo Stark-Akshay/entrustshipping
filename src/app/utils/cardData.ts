@@ -9,7 +9,16 @@ import {
   Shield,
   Building2,
   Users,
+  BarChart,
 } from "lucide-react";
+
+export interface featuresDataType {
+  Icon: React.ForwardRefExoticComponent<
+    Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>
+  >;
+  title: string;
+  description: string;
+}
 
 export interface cardDataType {
   id: number;
@@ -90,5 +99,28 @@ export const agencyServicesData: Omit<cardDataType, "location">[] = [
     cardTitle: "Customer Service",
     cardDescription:
       "Dedicated customer service team providing personalized attention to clients.",
+  },
+];
+
+export const features: featuresDataType[] = [
+  {
+    Icon: Globe,
+    title: "Global Network",
+    description: "Access to worldwide logistics network and partners",
+  },
+  {
+    Icon: BarChart,
+    title: "Cost Effective",
+    description: "Competitive rates and optimized routing solutions",
+  },
+  {
+    Icon: Clock,
+    title: "24/7 Support",
+    description: "Round-the-clock customer service and cargo tracking",
+  },
+  {
+    Icon: Shield,
+    title: "Secure Handling",
+    description: "Advanced cargo protection and insurance options",
   },
 ];
