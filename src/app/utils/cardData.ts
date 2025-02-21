@@ -34,7 +34,7 @@ export const cardData: cardDataType[] = [
   {
     id: 1,
     Icon: Ship,
-    cardTitle: "Shipper Liner Agency",
+    cardTitle: "Liner Agency",
     cardDescription:
       "Entrust Shipping has built a huge amount of goodwill and established itself as a trustworthy and reputed shipping liner agency. We are agents for some of the renowned container lines providing services in various cities across the world.",
     location: "/services/shipperlineragency",
@@ -52,7 +52,7 @@ export const cardData: cardDataType[] = [
     Icon: Scale,
     cardTitle: "Custom Clearance",
     cardDescription:
-      "Our experience of about two decades as well as our tie ups with all ports and Container Freight Stations (CFS) across India helps us confidently assure our clients of an effortless customs clearance.",
+      "Our experience of more than two decades as well as our tie ups with all ports across India helps us confidently assure our clients of an effortless customs clearance.",
     location: "/services/customclearance",
   },
 ];

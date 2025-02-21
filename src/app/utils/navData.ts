@@ -16,8 +16,8 @@ export const navData: navDataType[] = [
     subLinks: [
       {
         id: 1,
-        location: "/services/shipperlineragency",
-        pageName: "Shipper Liner Agency",
+        location: "/services/lineragency",
+        pageName: " Liner Agency",
       },
       {
         id: 2,

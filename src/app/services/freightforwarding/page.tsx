@@ -64,6 +64,7 @@ const frieghtforwarding = (props: Props) => {
                                                 <li>• Break bulk and project cargo</li>
                                                 <li>• Temperature-controlled containers</li>
                                                 <li>• Global port coverage</li>
+                                                <li>• Over Dimensional Cargo</li>
                                             </ul>
                                         </div>
                                         <div className="relative h-[300px]">

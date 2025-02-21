@@ -9,11 +9,11 @@ import React from 'react'
 type Props = {}
 
 export const metadata: Metadata = {
-    title: "Shipper Liner Agency",
+    title: "Liner Agency",
     description: "Entrust Shipping is a trusted liner agency representing top container lines worldwide. We ensure smooth port operations and efficient global shipping solutions.",
-    keywords: "Shipper Liner Agency, shipping agency, global shipping solutions, container line representation, port operations, maritime logistics, shipping services, Entrust Shipping",
+    keywords: "Liner Agency, shipping agency, global shipping solutions, container line representation, port operations, maritime logistics, shipping services, Entrust Shipping",
     openGraph: {
-        title: "Shipper Liner Agency | Entrust Shipping",
+        title: "Liner Agency | Entrust Shipping",
         description: "Entrust Shipping provides expert liner agency services, representing leading container lines globally. Reliable port operations and seamless logistics solutions.",
         url: "https://www.entrustshipping.com/shipper-liner-agency",
         siteName: "Entrust Shipping",
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     },
     robots: "index, follow",
 };
-const shipperlineragency = (props: Props) => {
+const lineragency = (props: Props) => {
     return (
         <>
-            <Banner titleOne='Shipper Liner Agency' description='Your Trusted Parter for Global Shipping Solutions' bgImage='bg-shipperlineragencyBanner' />
+            <Banner titleOne='Liner Agency' description='Your Trusted Parter for Global Shipping Solutions' bgImage='bg-shipperlineragencyBanner' />
             <section className='py-5 px-5 flex flex-col w-full gap-5 lg:flex-row md:px-20 md:justify-between items-center'>
                 <div id='detailsToTheLeft' className='w-[100%] lg:w-[70%] flex flex-col justify-center lg:justify-self-auto'>
                     <h3 className='text-xl md:text-2xl text-entrustBlue font-bold pb-2'>Comprehensive Liner Agency Services</h3>
@@ -51,4 +51,4 @@ const shipperlineragency = (props: Props) => {
     )
 }
 
-export default shipperlineragency
+export default lineragency
