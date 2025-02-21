@@ -62,9 +62,9 @@ const frieghtforwarding = (props: Props) => {
                                                 <li>• FCL (Full Container Load) shipping</li>
                                                 <li>• LCL (Less than Container Load) consolidation</li>
                                                 <li>• Break bulk and project cargo</li>
+                                                <li>• Over Dimensional Cargo</li>
                                                 <li>• Temperature-controlled containers</li>
                                                 <li>• Global port coverage</li>
-                                                <li>• Over Dimensional Cargo</li>
                                             </ul>
                                         </div>
                                         <div className="relative h-[300px]">
