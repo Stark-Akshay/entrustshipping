@@ -52,7 +52,7 @@ export const cardData: cardDataType[] = [
     Icon: Scale,
     cardTitle: "Custom Clearance",
     cardDescription:
-      "Our experience of more than two decades as well as our tie ups with all ports across India helps us confidently assure our clients of an effortless customs clearance.",
+      "Our experience of more than two decades as well as our tie ups with all ports across the globe helps us confidently assure our clients of an effortless customs clearance.",
     location: "/services/customclearance",
   },
 ];
