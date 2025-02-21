@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Liner Agency | Entrust Shipping",
         description: "Entrust Shipping provides expert liner agency services, representing leading container lines globally. Reliable port operations and seamless logistics solutions.",
-        url: "https://www.entrustshipping.com/shipper-liner-agency",
+        url: "https://www.entrustshipping.com/services/lineragency",
         siteName: "Entrust Shipping",
         type: "article",
     },

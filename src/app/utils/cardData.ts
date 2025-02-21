@@ -36,7 +36,7 @@ export const cardData: cardDataType[] = [
     Icon: Ship,
     cardTitle: "Liner Agency",
     cardDescription:
-      "Entrust Shipping has built a huge amount of goodwill and established itself as a trustworthy and reputed shipping liner agency. We are agents for some of the renowned container lines providing services in various cities across the world.",
+      "Entrust Shipping has built a huge amount of goodwill and established itself as a trustworthy and reputed liner agency. We are agents for some of the renowned container lines providing services in various cities across the world.",
     location: "/services/shipperlineragency",
   },
   {
