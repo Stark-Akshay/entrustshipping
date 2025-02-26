@@ -2,6 +2,7 @@ import Banner from '@/app/(components)/Banner'
 import NonLinkCard from '@/app/(components)/NonLinkCard'
 import SecondaryCTA from '@/app/(components)/SecondaryCTA'
 import { agencyServicesData } from '@/app/utils/cardData'
+import { Card, CardContent } from '@/components/ui/card'
 import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
@@ -39,14 +40,25 @@ const lineragency = (props: Props) => {
                 </div>
             </section>
 
-            <section className='py-5 px-5 flex flex-col w-full gap-5 md:px-20 md:justify-between items-center'>
-                <h3 className='text-xl md:text-2xl text-entrustBlue font-bold pb-2'>Our Agency Services</h3>
-                <div id="servicesCards" className="flex flex-col pb-5 gap-5 md:flex-row md:justify-center lg:justify-around flex-wrap flex-1 w-full h-max items-center">
-                    {agencyServicesData.map((card) => (
-                        <NonLinkCard key={card.id} {...card} />
-                    ))}
+            <section className="py-16 px-4">
+                <div className="max-w-7xl mx-auto text-center">
+                    <h2 className="text-3xl font-bold mb-12 text-entrustBlue">Why Choose Our Freight Forwarding</h2>
+                    <div className="flex flex-wrap justify-center gap-8">
+                        {agencyServicesData.map((feature) => (
+                            <Card key={feature.id} className="border-none shadow-lg rounded-[30px] flex flex-col items-center text-center w-80 ">
+                                <CardContent className="pt-6">
+                                    <div className="rounded-full bg-entrustBlue p-3 w-12 h-12 flex items-center justify-center mb-4">
+                                        {<feature.Icon className='text-white' />}
+                                    </div>
+                                    <h3 className="text-xl font-bold mb-2 text-entrustBlue">{feature.cardTitle}</h3>
+                                    <p className="text-entrustBlue">{feature.cardDescription}</p>
+                                </CardContent>
+                            </Card>
+                        ))}
+                    </div>
                 </div>
             </section>
+
         </>
     )
 }

@@ -1,4 +1,5 @@
 import Banner from '@/app/(components)/Banner'
+import NonLinkCard from '@/app/(components)/NonLinkCard'
 import SecondaryCTA from '@/app/(components)/SecondaryCTA'
 import { features } from '@/app/utils/cardData'
 import { Card, CardContent } from '@/components/ui/card'
@@ -138,17 +139,17 @@ const frieghtforwarding = (props: Props) => {
             </section>
 
             <section className="py-16 px-4">
-                <div className="max-w-7xl mx-auto">
-                    <h2 className="text-3xl font-bold text-center mb-12 text-entrustBlue">Why Choose Our Freight Forwarding</h2>
-                    <div className="grid md:grid-cols-4 gap-8">
+                <div className="max-w-7xl mx-auto text-center">
+                    <h2 className="text-3xl font-bold mb-12 text-entrustBlue">Why Choose Our Freight Forwarding</h2>
+                    <div className="flex flex-wrap justify-center gap-8">
                         {features.map((feature, index) => (
-                            <Card key={index} className="border-none shadow-lg rounded-[30px]">
+                            <Card key={index} className="border-none shadow-lg rounded-[30px] flex flex-col items-center text-center w-80 ">
                                 <CardContent className="pt-6">
                                     <div className="rounded-full bg-entrustBlue p-3 w-12 h-12 flex items-center justify-center mb-4">
                                         {<feature.Icon className='text-white' />}
                                     </div>
-                                    <h3 className="text-xl font-bold mb-2 text-entrustBlue">{feature.title}</h3>
-                                    <p className="text-entrustBlue">{feature.description}</p>
+                                    <h3 className="text-xl font-bold mb-2 text-entrustBlue">{feature.cardTitle}</h3>
+                                    <p className="text-entrustBlue">{feature.cardDescription}</p>
                                 </CardContent>
                             </Card>
                         ))}
