@@ -12,3 +12,7 @@ Air Frieght Image: Photo by Ethan Nguyen: https://www.pexels.com/photo/boxes-bei
 Land Freight Image: Photo by <a href="https://unsplash.com/@christopherphigh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Paul High</a> on <a href="https://unsplash.com/photos/red-and-white-freight-truck-O8dcG8oniJU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 Warehousing banner: Photo by Tiger Lily: https://www.pexels.com/photo/man-standing-in-an-aisle-of-a-warehouse-carrying-a-box-4483774/
+
+Project Logistics Banner: Photo by <a href="https://unsplash.com/@egla?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hannes Egler</a> on <a href="https://unsplash.com/photos/closeup-photo-of-parking-lot-nT4k2JDtwTQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Project Logistics Image: Photo by <a href="https://unsplash.com/@elevatebeer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Elevate</a> on <a href="https://unsplash.com/photos/yellow-and-black-forklift-during-daytime-dI-aXC7DWpQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

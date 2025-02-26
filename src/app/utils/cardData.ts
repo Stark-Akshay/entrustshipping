@@ -13,6 +13,7 @@ import {
   Package,
   ClipboardCheck,
   BarChart3,
+  Cog,
 } from "lucide-react";
 
 export type featuresDataType = Omit<cardDataType, "location" | "id">;
@@ -152,5 +153,38 @@ export const warehousingCardInfo: featuresDataType[] = [
     Icon: BarChart3,
     cardTitle: "Reporting",
     cardDescription: "Detailed analytics and performance reporting",
+  },
+];
+
+export const projectlogisticCardInfo: featuresDataType[] = [
+  {
+    Icon: Globe,
+    cardTitle: "Global Expertise",
+    cardDescription:
+      "Broad domestic and international experience in handling complex logistics projects.",
+  },
+  {
+    Icon: Cog,
+    cardTitle: "Tailored Solutions",
+    cardDescription:
+      "Customized approach for each project, no matter how big, bulky, or non-standard.",
+  },
+  {
+    Icon: Shield,
+    cardTitle: "Safety First",
+    cardDescription:
+      "Rigorous safety and security measures for all cargo movements.",
+  },
+  {
+    Icon: BarChart3,
+    cardTitle: "Cost Optimization",
+    cardDescription:
+      "Strategic planning to minimize freight costs without compromising quality.",
+  },
+  {
+    Icon: Truck,
+    cardTitle: "Specialized Equipment",
+    cardDescription:
+      "Access to a wide range of equipment for handling oversized and heavy cargo.",
   },
 ];
