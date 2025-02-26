@@ -10,15 +10,12 @@ import {
   Building2,
   Users,
   BarChart,
+  Package,
+  ClipboardCheck,
+  BarChart3,
 } from "lucide-react";
 
-export interface featuresDataType {
-  Icon: React.ForwardRefExoticComponent<
-    Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>
-  >;
-  title: string;
-  description: string;
-}
+export type featuresDataType = Omit<cardDataType, "location" | "id">;
 
 export interface cardDataType {
   id: number;
@@ -29,7 +26,7 @@ export interface cardDataType {
   cardDescription: string;
   location: string;
 }
-
+//home page card data
 export const cardData: cardDataType[] = [
   {
     id: 1,
@@ -57,6 +54,7 @@ export const cardData: cardDataType[] = [
   },
 ];
 
+//liner agency page data.
 export const agencyServicesData: Omit<cardDataType, "location">[] = [
   {
     id: 1,
@@ -102,25 +100,57 @@ export const agencyServicesData: Omit<cardDataType, "location">[] = [
   },
 ];
 
+//freight forwarding page card data
 export const features: featuresDataType[] = [
   {
     Icon: Globe,
-    title: "Global Network",
-    description: "Access to worldwide logistics network and partners",
+    cardTitle: "Global Network",
+    cardDescription: "Access to worldwide logistics network and partners",
   },
   {
     Icon: BarChart,
-    title: "Cost Effective",
-    description: "Competitive rates and optimized routing solutions",
+    cardTitle: "Cost Effective",
+    cardDescription: "Competitive rates and optimized routing solutions",
   },
   {
     Icon: Clock,
-    title: "24/7 Support",
-    description: "Round-the-clock customer service and cargo tracking",
+    cardTitle: "24/7 Support",
+    cardDescription: "Round-the-clock customer service and cargo tracking",
   },
   {
     Icon: Shield,
-    title: "Secure Handling",
-    description: "Advanced cargo protection and insurance options",
+    cardTitle: "Secure Handling",
+    cardDescription: "Advanced cargo protection and insurance options",
+  },
+];
+
+//warehousing page card data
+
+export const warehousingCardInfo: featuresDataType[] = [
+  {
+    Icon: Package,
+    cardTitle: "Storage Solutions",
+    cardDescription:
+      "Secure storage facilities with modern inventory management systems",
+  },
+  {
+    Icon: ClipboardCheck,
+    cardTitle: "Inventory Management",
+    cardDescription: "Real-time tracking and inventory control systems",
+  },
+  {
+    Icon: Truck,
+    cardTitle: "Distribution",
+    cardDescription: "Seamless distribution and logistics services",
+  },
+  {
+    Icon: Shield,
+    cardTitle: "Security",
+    cardDescription: "24/7 security monitoring and access control",
+  },
+  {
+    Icon: BarChart3,
+    cardTitle: "Reporting",
+    cardDescription: "Detailed analytics and performance reporting",
   },
 ];

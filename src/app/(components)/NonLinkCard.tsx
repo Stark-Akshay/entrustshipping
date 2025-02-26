@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 
 
-const NonLinkCard = ({ Icon, cardTitle, cardDescription }: Omit<cardDataType, "location">) => {
+const NonLinkCard = ({ Icon, cardTitle, cardDescription }: Omit<cardDataType, "location" | "id">) => {
 
     return (
         <div id="card" className='group bg-white border-2 border-cardBordergrey rounded-[60px] p-5 h-[17rem] transition-all duration-300 hover:bg-entrustBlue flex flex-col justify-between max-w-[24rem] sm:max-w-[40rem] lg:max-w-[25rem] xl:max-w-[30rem]'>

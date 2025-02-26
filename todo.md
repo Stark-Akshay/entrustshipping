@@ -10,3 +10,5 @@ Sea Freight Image: Photo by Tom Fisk: https://www.pexels.com/photo/aerial-shot-o
 Air Frieght Image: Photo by Ethan Nguyen: https://www.pexels.com/photo/boxes-being-loaded-onto-an-airplane-9749472/
 
 Land Freight Image: Photo by <a href="https://unsplash.com/@christopherphigh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Paul High</a> on <a href="https://unsplash.com/photos/red-and-white-freight-truck-O8dcG8oniJU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Warehousing banner: Photo by Tiger Lily: https://www.pexels.com/photo/man-standing-in-an-aisle-of-a-warehouse-carrying-a-box-4483774/
