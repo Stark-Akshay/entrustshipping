@@ -5,12 +5,25 @@ import { Card, CardContent } from '@/components/ui/card'
 import { TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Tabs } from '@radix-ui/react-tabs'
 import { ChartGantt, FileCog, MonitorCog } from 'lucide-react'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
 
-type Props = {}
+export const metadata: Metadata = {
+    title: "Project Logistics",
+    description: "Entrust Shipping specializes in project logistics, offering customized solutions for complex freight challenges. From planning to execution, we ensure seamless cargo movement.",
+    keywords: "Project Logistics, Freight Solutions, Supply Chain, Heavy Cargo, Oversized Shipments, Route Optimization, Entrust Shipping",
+    openGraph: {
+        title: "Project Logistics | Tailored Freight Solutions",
+        description: "Customized project logistics solutions for large-scale freight operations. Strategic planning, efficient execution, and real-time monitoring to optimize cargo movement.",
+        url: "https://www.entrustshipping.com/projectlogistics",
+        siteName: "Entrust Shipping",
+        type: "article",
+    },
+    robots: "index, follow",
+};
 
-const projectlogistics = (props: Props) => {
+const projectlogistics = () => {
     return (
         <>
             <Banner titleOne='Project Logistics' description='Tailored Solutions for Complex Logistics Challenges' bgImage='bg-projectlogisticsBanner' />
