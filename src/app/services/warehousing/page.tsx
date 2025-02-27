@@ -4,12 +4,35 @@ import { warehousingAccordionData } from '@/app/utils/accordionData'
 import { warehousingCardInfo } from '@/app/utils/cardData'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { Card, CardContent } from '@/components/ui/card'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import React from 'react'
 
-type Props = {}
 
-const warehousing = (props: Props) => {
+export const metadata: Metadata = {
+    title: "Warehousing Solutions",
+    description: "Entrust Shipping provides secure, efficient, and scalable warehousing solutions, integrating seamlessly with your supply chain for optimized storage and distribution.",
+    keywords: "Warehousing, storage solutions, distribution centers, inventory management, logistics, supply chain, Entrust Shipping",
+    openGraph: {
+        title: "Warehousing Solutions | Entrust Shipping",
+        description: "Discover state-of-the-art warehousing and distribution solutions tailored to your business needs. Secure, efficient, and scalable storage for your supply chain.",
+        url: "https://www.entrustshipping.com/warehousing",
+        siteName: "Entrust Shipping",
+        type: "article",
+        images: [
+            {
+                url: "/images/warehousingImage.webp",
+                width: 1200,
+                height: 630,
+                alt: "Warehousing and distribution services by Entrust Shipping",
+            },
+        ],
+    },
+    robots: "index, follow",
+};
+
+
+const warehousing = () => {
     return (
         <>
             <Banner titleOne='Warehousing Solutions' description='State-of-the-Art Storage and Distribution Facilities' bgImage='bg-warehousingBanner' />

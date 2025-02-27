@@ -14,6 +14,7 @@ import {
   ClipboardCheck,
   BarChart3,
   Cog,
+  FileText,
 } from "lucide-react";
 
 export type featuresDataType = Omit<cardDataType, "location" | "id">;
@@ -186,5 +187,46 @@ export const projectlogisticCardInfo: featuresDataType[] = [
     cardTitle: "Specialized Equipment",
     cardDescription:
       "Access to a wide range of equipment for handling oversized and heavy cargo.",
+  },
+];
+
+//customclearance page card data
+
+export const customclearanceCardData: featuresDataType[] = [
+  {
+    Icon: Globe,
+    cardTitle: "Global Expertise",
+    cardDescription:
+      "Two decades of experience with customs regulations worldwide.",
+  },
+  {
+    Icon: Clock,
+    cardTitle: "Timely Processing",
+    cardDescription:
+      "Efficient handling for quick and hassle-free customs clearance.",
+  },
+  {
+    Icon: Shield,
+    cardTitle: "Compliance Assurance",
+    cardDescription:
+      "Strict adherence to all customs laws and regulations across the globe.",
+  },
+  {
+    Icon: FileText,
+    cardTitle: "Documentation Experts",
+    cardDescription:
+      "Meticulous preparation and management of all required paperwork.",
+  },
+  {
+    Icon: Scale,
+    cardTitle: "Cost-Effective Solutions",
+    cardDescription:
+      "Optimized processes to minimize your expenses and provide value for money.",
+  },
+  {
+    Icon: Truck,
+    cardTitle: "Comprehensive Services",
+    cardDescription:
+      "Handling shipments by sea, air, rail, and road efficiently.",
   },
 ];

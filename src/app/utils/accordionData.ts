@@ -5,6 +5,42 @@ export interface warehousingAccordionDataType {
   bullets: string[];
 }
 
+export const customclearanceAccordionData: Omit<
+  warehousingAccordionDataType,
+  "bullets"
+>[] = [
+  {
+    accordionTitle: "Safety and Legal Compliance",
+    accordionDescription:
+      "We ensure all customs processes adhere to local and international regulations.",
+  },
+  {
+    accordionTitle: "Document Preparation and Assessment",
+    accordionDescription:
+      "Our team handles all necessary paperwork, ensuring accuracy and completeness.",
+  },
+  {
+    accordionTitle: "Procedural Assistance and Duty Payment",
+    accordionDescription:
+      "We guide you through customs procedures and handle duty payments on your behalf.",
+  },
+  {
+    accordionTitle: "Representation During Customs Examination",
+    accordionDescription:
+      "Our agents represent your interests during any required customs inspections.",
+  },
+  {
+    accordionTitle: "Preparation and Submission of Required Documents",
+    accordionDescription:
+      "We prepare and submit all necessary documentation to relevant authorities.",
+  },
+  {
+    accordionTitle: "Safe Cargo Delivery After Clearance",
+    accordionDescription:
+      "We ensure your cargo is safely delivered after clearing customs, along with all required documents.",
+  },
+];
+
 export const warehousingAccordionData: warehousingAccordionDataType[] = [
   {
     accordionTitle: "Inventory Management System",
