@@ -69,6 +69,7 @@ export default {
         warehousingBanner: "url(/images/warehousingBanner.webp)",
         projectlogisticsBanner: "url(/images/projectlogisticsBanner.webp)",
         customclearanceBanner: "url(/images/customclearanceBanner.webp)",
+        branchesBanner: "url(/images/branchesBanner.webp)",
       },
       borderRadius: {
         lg: "var(--radius)",
