@@ -10,7 +10,7 @@ export interface BranchDataType {
   phone: string;
 }
 
-export const benefits: BenefitsDataType[] = [
+export const additionalBenefits: BenefitsDataType[] = [
   {
     title: "Superior Customer Experience",
     description:

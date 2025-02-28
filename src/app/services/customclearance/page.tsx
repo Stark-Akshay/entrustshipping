@@ -2,7 +2,7 @@ import Banner from '@/app/(components)/Banner'
 import SecondaryCTA from '@/app/(components)/SecondaryCTA'
 import { customclearanceAccordionData } from '@/app/utils/accordionData'
 import { customclearanceCardData } from '@/app/utils/cardData'
-import { benefits } from '@/app/utils/extraDetails'
+import { additionalBenefits, benefits } from '@/app/utils/extraDetails'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { Card, CardContent } from '@/components/ui/card'
 import { CheckCircle } from 'lucide-react'
@@ -79,7 +79,7 @@ const customclearance = () => {
                 <div className="max-w-7xl mx-auto">
                     <h2 className="text-3xl font-bold text-center mb-12 text-entrustBlue">Additional Benefits</h2>
                     <div className="grid md:grid-cols-2 gap-8">
-                        {benefits.map((benefit, index) => (
+                        {additionalBenefits.map((benefit, index) => (
                             <div key={index} className="flex items-start gap-4 text-entrustBlue">
                                 <CheckCircle className="text-entrustBlue h-6 w-6 mt-1 flex-shrink-0" />
                                 <div>
