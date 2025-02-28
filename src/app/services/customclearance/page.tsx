@@ -33,7 +33,7 @@ const customclearance = () => {
                 <div id='detailsToTheLeft' className='w-[100%] lg:w-[70%] flex flex-col justify-center lg:justify-self-auto'>
                     <h3 className='text-xl md:text-2xl text-entrustBlue font-bold pb-2'>Experienced Custom Clearance Agents</h3>
                     <p className='text-md md:text-lg text-entrustBlue font-light pb-2'>At Entrust Shipping, we have an experienced team of custom clearance agents with about two decades of expertise.</p>
-                    <p className='text-md md:text-lg text-entrustBlue font-light pb-2'>Our tie-ups with all ports across the globe help us confidently assure our clients of an effortless customs clearance experience.</p>
+                    <p className='text-md md:text-lg text-entrustBlue font-light pb-2'>Our tie-ups with agents across the globe help us confidently assure our clients of an effortless customs clearance experience.</p>
                     <div className='flex flex-row justify-center md:justify-start'>
                         <SecondaryCTA location='/contactus'>Contact Us</SecondaryCTA>
                     </div>

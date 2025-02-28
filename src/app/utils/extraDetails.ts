@@ -24,12 +24,12 @@ export const benefits: BenefitsDataType[] = [
   {
     title: "Tailored Assistance",
     description:
-      "Our services are customized to the size of your consignment and your budget requirements.",
+      "Our services are customized to the size of your consignment and tailored to suit your requirements",
   },
   {
     title: "Proactive Problem Solving",
     description:
-      "We anticipate and rectify potential issues to avoid delays in clearance.",
+      "We anticipate and rectify potential issues to minimize delays in clearance.",
   },
   {
     title: "Advanced Technology Integration",
