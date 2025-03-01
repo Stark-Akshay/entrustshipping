@@ -70,6 +70,7 @@ export default {
         projectlogisticsBanner: "url(/images/projectlogisticsBanner.webp)",
         customclearanceBanner: "url(/images/customclearanceBanner.webp)",
         branchesBanner: "url(/images/branchesBanner.webp)",
+        contactusBanner: "url(/images/contactusBanner.webp)",
       },
       borderRadius: {
         lg: "var(--radius)",

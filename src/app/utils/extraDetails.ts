@@ -10,6 +10,12 @@ export interface BranchDataType {
   phone: string;
 }
 
+export interface TimeLineDataType {
+  year: string;
+  title: string;
+  description: string;
+}
+
 export const additionalBenefits: BenefitsDataType[] = [
   {
     title: "Superior Customer Experience",
@@ -79,5 +85,85 @@ export const branchesData: BranchDataType[] = [
       "401, 4th floor, Skyline building, 85 Nehru place,> New Delhi - 110019.",
     email: "jaya@entrustshipping.com",
     phone: "+91 9873699888",
+  },
+];
+
+export const timelineData: TimeLineDataType[] = [
+  {
+    year: "2020",
+    title: "Company Founded",
+    description:
+      "Entrust Shipping was established with a vision to revolutionize global logistics.",
+  },
+  {
+    year: "2021",
+    title: "Expanded to 10+ Countries",
+    description:
+      "We grew our network to serve clients in over 10 countries worldwide.",
+  },
+  {
+    year: "2022",
+    title: "Technology Integration",
+    description:
+      "Implemented AI-driven tracking and management systems for enhanced efficiency.",
+  },
+  {
+    year: "2023",
+    title: "Sustainability Initiatives",
+    description:
+      "Launched eco-friendly shipping solutions to reduce our carbon footprint.",
+  },
+];
+
+export const whyUsDetails: BenefitsDataType[] = [
+  {
+    title: "Reliable & Safe Deliveries",
+    description:
+      "We ensure your goods are transported with utmost safety and efficiency from pick-up to drop-off.",
+  },
+  {
+    title: "End-to-End Logistics Solutions",
+    description:
+      "From freight forwarding to customs clearance, warehousing, and express deliveries, we handle it all.",
+  },
+  {
+    title: "Global Network & Infrastructure",
+    description:
+      "Our worldwide partnerships and infrastructure ensure seamless movement of goods across borders.",
+  },
+  {
+    title: "Cost-Effective Operations",
+    description:
+      "We provide value-for-money logistics solutions through strategic partnerships and economies of scale.",
+  },
+  {
+    title: "Fast & Expedited Deliveries",
+    description:
+      "We offer air and express transport to meet your urgent shipping requirements.",
+  },
+  {
+    title: "Customer-Centric Approach",
+    description:
+      "Our service-driven culture ensures personalized and hassle-free logistics solutions tailored to your needs.",
+  },
+  {
+    title: "Advanced Tracking & Information Systems",
+    description:
+      "Stay updated with real-time tracking and a seamless online information management system.",
+  },
+  {
+    title: "Expert Team & Industry Experience",
+    description:
+      "Our core management team brings rich professional experience in global logistics and supply chain management.",
+  },
+  {
+    title: "Sustainable & Ethical Practices",
+    description:
+      "We uphold environmental responsibility and business ethics in all our operations.",
+  },
+  {
+    title: "Comprehensive Customs & Legal Assistance",
+    description:
+      "We handle all necessary documentation and legal requirements for hassle-free global shipping.",
   },
 ];

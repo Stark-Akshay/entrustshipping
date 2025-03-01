@@ -15,6 +15,11 @@ import {
   BarChart3,
   Cog,
   FileText,
+  Target,
+  Award,
+  Lightbulb,
+  Handshake,
+  Leaf,
 } from "lucide-react";
 
 export type featuresDataType = Omit<cardDataType, "location" | "id">;
@@ -228,5 +233,56 @@ export const customclearanceCardData: featuresDataType[] = [
     cardTitle: "Comprehensive Services",
     cardDescription:
       "Handling shipments by sea, air, rail, and road efficiently.",
+  },
+];
+
+export const coreValuesData: featuresDataType[] = [
+  {
+    Icon: Users,
+    cardTitle: "Customer First",
+    cardDescription:
+      "We prioritize our customers' needs and provide tailored solutions for their success.",
+  },
+  {
+    Icon: Target,
+    cardTitle: "Excellence",
+    cardDescription:
+      "We strive for excellence in every aspect of our operations and service delivery.",
+  },
+  {
+    Icon: Award,
+    cardTitle: "Integrity",
+    cardDescription:
+      "We conduct our business with the highest standards of integrity and transparency.",
+  },
+  {
+    Icon: Globe,
+    cardTitle: "Global Reach",
+    cardDescription:
+      "Leveraging our extensive global network to deliver seamless logistics solutions worldwide.",
+  },
+  {
+    Icon: Lightbulb,
+    cardTitle: "Innovation",
+    cardDescription:
+      "Investing in the latest infrastructure and technology to provide cutting-edge services.",
+  },
+  {
+    Icon: Leaf,
+    cardTitle: "Environmental Responsibility",
+    cardDescription:
+      "Committed to sustainable practices that minimize our environmental footprint.",
+  },
+  {
+    Icon: Handshake,
+    cardTitle: "Collaboration",
+    cardDescription:
+      "Fostering strong partnerships and a collaborative culture to achieve mutual success.",
+  },
+  {
+    Icon: Shield,
+    cardTitle: "Safety",
+    cardDescription:
+      "Ensuring the utmost safety and security in all our operations and services.",
   },
 ];
